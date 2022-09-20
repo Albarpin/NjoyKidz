@@ -37,7 +37,7 @@ public class GridManager : MonoBehaviour
 
         float gridW = cols * tileSize;
         float gridH = rows * tileSize;
-        transform.position = new Vector2(-gridW / 2 + tileSize / 2, gridH / 2 - tileSize / 2);
+        transform.position = new Vector2(-gridW / 2 + tileSize / 2, gridH / 2 - tileSize / 2);   //Ekran boyutu ne olursa olsun düzgün gözükmesi için
        
 
        
